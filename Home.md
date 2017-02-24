@@ -1,4 +1,3 @@
-## Router
 ```
   _____  _    _ _____             _____             _            
  |  __ \| |  | |  __ \           |  __ \           | |           
@@ -30,7 +29,7 @@ simple Router class for PHP. with the support of Controllers and Middlewares.
 
 ## Usage
 - [Getting Started](https://github.com/izniburak/php-router/wiki/Getting-Started)
-- Methods
+- [Methods](https://github.com/izniburak/php-router/wiki/Methods)
 - Patterns and custom patterns
 - Controllers and Middlewares (Filters)
 - Grouping

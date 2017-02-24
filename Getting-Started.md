@@ -1,5 +1,3 @@
-# PHP-Router Documentation
-
 ## Install
 composer.json file:
 ```json

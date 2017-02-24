@@ -1,5 +1,3 @@
-# Methods
-
 PHP Router supports GET, POST, PUT, DELETE, OPTIONS, PATCH, HEAD, AJAX and ANY request methods.
 
 ## Usage 

@@ -3,12 +3,12 @@ If you want you can group the routes you create.
 Example:
 
 ```php
-$route->group('admin', function()
+$router->group('admin', function($r)
 {
-  $route->get('foo', function(){ echo 'page: admin/foo'; });
-  $route->get('bar', function(){ echo 'page: admin/bar'; });
-  $route->get('baz/php', function(){ echo 'page: admin/baz/php'; });
-  $route->post('login', function(){ echo 'page: admin/login'; });
+  $r->get('foo', function(){ echo 'page: admin/foo'; });
+  $r->get('bar', function(){ echo 'page: admin/bar'; });
+  $r->get('baz/php', function(){ echo 'page: admin/baz/php'; });
+  $r->post('login', function(){ echo 'page: admin/login'; });
 });
 
 # Created Routes:

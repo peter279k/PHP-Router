@@ -45,6 +45,16 @@ $router->any('/any-request', function()
 });
 ```
 
+You can define more than one method at one time for a request.
+
+Example:
+```php
+$router->add('GET|POST', '/request', function()
+{
+  echo 'Hello World. I'm working GET or POST method.';
+});
+```
+
 **NOTE:**
 
 A post value must be sent in an object named **"_method"** for the Put, Delete, Patch, Options, Head methods.

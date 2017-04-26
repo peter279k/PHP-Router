@@ -30,7 +30,7 @@ simple Router class for PHP. with the support of Controllers and Middlewares.
 ## Usage
 - [Getting Started](https://github.com/izniburak/php-router/wiki/Getting-Started)
 - [Methods](https://github.com/izniburak/php-router/wiki/Methods)
-- Patterns and custom patterns
+- [Patterns and custom patterns](https://github.com/izniburak/php-router/wiki/Parameter-Patterns) 
 - Controllers and Middlewares (Filters)
-- Grouping
+- [Grouping](https://github.com/izniburak/php-router/wiki/Grouping) 
 - ...

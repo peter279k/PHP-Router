@@ -61,7 +61,9 @@ A post value must be sent in an object named **"_method"** for the Put, Delete, 
 
 Example: 
 ```php
-# curl -X POST -d '{"_method":"put"}' http://localhost:3000/put-request
+# curl -X PUT http://localhost:3000/put-request
+# OR 
+# curl -X POST http://localhost:3000/put-request -d _method=put
 
 $router->put('/put-request', function()
 {

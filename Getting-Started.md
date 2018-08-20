@@ -43,3 +43,28 @@ Congratulations! Now, you can use PHP-Router.
 If you have a problem, you can [contact me][support-url] or open new issue.
 
 [support-url]: https://github.com/izniburak/php-router#support
+
+## Paths and Namespaces
+
+If you would like define paths and namespaces for Controllers and Middlewares, you can do this at below:
+
+```php
+require 'vendor/autoload.php';
+
+$router = new \Buki\Router([
+  'paths' => [
+    'controllers' => 'Controllers',
+    'middlewares' => 'Middlewares',
+  ],
+  'namespaces' => [
+    'controllers' => 'App\\Controller',
+    'middlewares' => 'App\\Middlewares',
+  ]
+]);
+
+$router->get('/', function() {
+    return 'Hello World!';
+});
+
+$router->run();
+```

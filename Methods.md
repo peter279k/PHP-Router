@@ -38,6 +38,13 @@ $router->ajax('/ajax-request', function()
 });
 ```
 ```php
+# AJAXP Request (Post & Ajax)
+$router->ajaxp('/ajaxp-request', function()
+{
+  echo 'Hello World.';
+});
+```
+```php
 # ANY Request (It accepts all requests.)
 $router->any('/any-request', function()
 {
@@ -51,7 +58,7 @@ Example:
 ```php
 $router->add('GET|POST', '/request', function()
 {
-  echo 'Hello World. I'm working GET or POST method.';
+  echo "Hello World. I'm working GET or POST method.";
 });
 ```
 

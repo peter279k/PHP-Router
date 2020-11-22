@@ -16,8 +16,9 @@ simple Router class for PHP. with the support of Controllers and Middlewares.
 
 ### Features
 - Supports GET, POST, PUT, DELETE, OPTIONS, PATCH, HEAD, AJAX and ANY request methods
+- Easy access and manage Request and Response via `symfony/http-foundation` package.
 - Controllers support (Example: HomeController@about)
-- Before and after Route Middlewares support
+- Before and after Route Middlewares support (also in Controllers)
 - Static Route Patterns
 - Dynamic Route Patterns
 - Easy-to-use patterns

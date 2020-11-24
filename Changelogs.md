@@ -1,5 +1,3 @@
-## Changelogs
-
 ### v2.1.0
 Some improvements:
 
